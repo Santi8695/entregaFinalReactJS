@@ -1,0 +1,85 @@
+/* Estilos para el contenedor del carrito */
+.contenedorCarrito {
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilos para los mensaje de carrito vacío */
+.contenedorCarrito h2,
+a {
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+    transition: 0.2s ease-in-out;
+}
+
+.contenedorCarrito a:hover {
+    color: #868788;
+    /* color alternativo, definir mas tarde, color: #4696e6; */
+    transition: 0.2s ease-in-out;
+}
+
+/* Estilos para el carrito con elementos adentro */
+.contenedorCompras {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para los totales */
+.totalCarrito {
+    margin: 20px 16px 0 0;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 18px;
+    color: #333;
+    text-align: right;
+}
+
+/* Estilos para los botones */
+.botonCarrito {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0 12px;
+}
+
+.botonCarrito button {
+    margin: 4px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8d8d8d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.botonCarrito button:hover {
+    background-color: #6e6e6e;
+    transition: 0.2s ease-in-out;
+}
+
+.botonCarrito a {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a79d3;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+.botonCarrito a:hover {
+    background-color: #2a57d3;
+    transition: 0.2s ease-in-out;
+
+}

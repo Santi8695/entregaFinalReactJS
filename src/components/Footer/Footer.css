@@ -1,0 +1,75 @@
+span {
+    display: block;
+}
+
+/* Estilos generales del footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 16px;
+}
+
+/* Contenedor del contenido del footer */
+.contenidoFooter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Secciones del footer */
+.informacionContacto {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.informacionContacto h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.informacionContacto p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.informacionContacto p a{
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.informacionContacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.informacionContacto ul li {
+    margin: 10px 0;
+}
+
+.informacionContacto ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Estilos para la parte inferior del footer */
+.derechosFooter {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}

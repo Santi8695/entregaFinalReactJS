@@ -1,0 +1,88 @@
+/* Estilos para el contenedor del checkout */
+.contenedorCheckout {
+    max-width: 600px;
+    margin: 16px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedorCheckout h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los productos en el checkout */
+.productosCheckout {
+    margin-bottom: 20px;
+}
+
+.productosCheckout p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.productosCheckout hr {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Estilos para el formulario */
+.formularioCheckout {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formularioCheckout div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formularioCheckout label {
+    font-size: 14px;
+    color: #333;
+}
+
+.formularioCheckout input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.formularioCheckout button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2189dd;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.formularioCheckout button:hover {
+    background-color: #1e58d4;
+    transition: 0.2s ease-in-out;
+}
+
+/* Estilos para los mensajes de error y orden completa */
+.mensajeError {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.mensajeOrdenCompletada {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-top: 10px;
+}

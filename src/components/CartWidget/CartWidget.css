@@ -1,0 +1,21 @@
+.carrito {
+    display: flex;
+}
+
+.carrito img {
+    width: 72px;
+    height: 72px;
+    margin-right: 16px;    
+}
+
+.carrito p {
+    position:relative;
+    top: -8.6vh;
+    right: -3.5vw;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;   
+}

@@ -1,0 +1,57 @@
+/* Estilos de Header*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    text-align: center;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    background-color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 16px;
+    cursor: pointer;
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    transition: ease-in-out 200ms;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    font-weight: bold;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
