@@ -33,6 +33,10 @@ const NavBar = () => {
             <NavLink to="/categoria/Bape">Bape</NavLink>
           </li>
 
+          <li>
+            <NavLink to="/categoria/GoldenGoose">Golden Goose</NavLink>
+          </li>
+
         </ul>
       </nav>
       <CartWidget />
